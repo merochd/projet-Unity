@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TankGame.uss?fileID=7433441132597879392&amp;guid=00a6bac987ad35144ba4e738d1817cde&amp;type=3#TankGame" />
+    <ui:VisualElement name="MainHUD" data-source-type="GameManager, Assembly-CSharp" class="header" style="flex-grow: 1; margin-top: 33px; margin-right: 33px; margin-bottom: 33px; margin-left: 33px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); align-items: center;">
+        <ui:VisualElement name="LabelFrame" class="header button" style="flex-grow: 0; align-self: center; justify-content: center; align-items: center; width: 12%; height: 15%; flex-shrink: 0; margin-top: 19px; margin-right: 19px; margin-bottom: 19px; margin-left: 19px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; background-color: rgba(70, 80, 105, 0.33);">
+            <ui:Label text="## / ##" selectable="true" name="EnnemiesLabel" class="button" style="-unity-text-align: middle-center; white-space: nowrap; width: 14%; background-color: rgba(70, 80, 105, 0); text-overflow: clip; font-size: 27px; border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+            <ui:Label text="Ennemies are down" name="EndGameWin" style="font-size: 124px; transition-duration: 0.15s; display: flex; visibility: visible; transform-origin: 50px 50px; position: relative; top: -150px; left: 0; right: 0; bottom: 0;" />
+            <ui:Label text="go back to the menu" name="EndGameMessage" style="font-size: 50px; translate: 0 -120px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

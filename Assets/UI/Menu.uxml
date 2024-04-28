@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TankGame.uss?fileID=7433441132597879392&amp;guid=00a6bac987ad35144ba4e738d1817cde&amp;type=3#TankGame" />
+    <ui:VisualElement name="VisualElement" class="root">
+        <ui:Label text="Menu principal" class="header" />
+        <ui:VisualElement name="ButtonPanel" style="flex-grow: 1; margin-top: 10px; margin-left: 10px; height: auto; width: 30%; align-items: stretch; align-self: center;">
+            <ui:Button text="Play" name="PlayButton" class="button" />
+            <ui:Button text="Settings" name="SettingsButton" class="button" />
+            <ui:Button text="Quit" name="QuitButton" focusable="true" selectable="true" class="button" style="width: 66px; position: relative; bottom: 350px; right: -600px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Logo" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Sprites/LogoCouleurFondBleu_Transparent.png?fileID=21300000&amp;guid=442e48fb26228264c9668b6aa3b93024&amp;type=3#LogoCouleurFondBleu_Transparent&apos;); -unity-background-scale-mode: scale-to-fit; width: auto; height: 10%;" />
+    </ui:VisualElement>
+</ui:UXML>

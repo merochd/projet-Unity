@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TankGame.uss?fileID=7433441132597879392&amp;guid=00a6bac987ad35144ba4e738d1817cde&amp;type=3#TankGame" />
+    <ui:VisualElement name="root" class="root" style="flex-grow: 1; width: 50%; align-self: center; display: flex;">
+        <ui:Label text="Pause" class="header" style="width: auto;" />
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Button text="Resume" name="ResumeBtn" class="button" />
+            <ui:Button text="Back to main menu" name="MainMenuBtn" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
